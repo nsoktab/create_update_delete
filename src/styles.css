@@ -36,7 +36,7 @@ nav {
 @media (min-width: 600px) {
     nav {
         padding: 1em 2em;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -45,7 +45,7 @@ nav a {
     display: inline-block;
     color: var(--text-color-light);
     text-align: center;
-    padding: 20px 16px;
+    padding: 20px 8px;
     text-decoration: none;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -85,7 +85,7 @@ h3 {
 /* ---------- Page Styling ---------- */
 .page {
     animation: fadeIn 0.5s;
-    padding: 200px 2em;
+    padding: 300px 2em;
 }
 
 @media (min-width: 600px) {
@@ -283,4 +283,11 @@ article .avatar img {
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+
+.recipe-img{
+    width:500px;
+    height: auto;
+    margin: 10px;
 }
