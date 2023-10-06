@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Recipe from "../components/Recipe";
+import Recipe from "../components/Post";
 
 export default function RecipesPage(){
 
