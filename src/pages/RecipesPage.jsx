@@ -23,7 +23,8 @@ export default function RecipesPage(){
         image:"https://images.unsplash.com/photo-1629444984485-efc003bb617f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHVtcGtpbiUyMHNwaWNlJTIwbGF0dGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1200&q=60",
     }
 ])*/
-   async function getRecipes(){
+   
+async function getRecipes(){
     const url = "https://autumn-recipes-default-rtdb.europe-west1.firebasedatabase.app/posts.json";
     const response = await fetch (url); //wait for fetching data from url above
     const data = await response.json();//wait until the data is put into an object
